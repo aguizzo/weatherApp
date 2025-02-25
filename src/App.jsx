@@ -1,11 +1,5 @@
-import Weather from './Weather'
-
+import AppRoutes from "./routes/AppRoutes";
 
 export default function App() {
-  return (
-    <>
-      <Weather />
-    </>
-  );
+  return <AppRoutes />;
 }
-
